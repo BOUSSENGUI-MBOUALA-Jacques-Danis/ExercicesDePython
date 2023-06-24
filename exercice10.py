@@ -1,0 +1,10 @@
+nbr1=int(input("veuillez entrer un nombre :"))
+nbr2=int(input("veuillez entrer un autre nombre :"))
+nbr3=int(input("veuillez entrer un troisième nombre :"))
+nbr4=int(input(" encore un :"))
+nbr5=int(input("veuillez entrer un dernier nombre :"))
+nombre=[nbr1,nbr2,nbr3,nbr4,nbr5]
+max_valeure = max(nombre)
+min_valeure = min(nombre)
+print('la valeure maximale est:', max_valeure, " qui a l'indice:", nombre.index(max_valeure))
+print('et la valeure manimale est:', min_valeure, " qui a l'indice:", nombre.index(min_valeure))

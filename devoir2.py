@@ -1,0 +1,10 @@
+nbr1=float(input("veuillez entrer un nombre :"))
+nbr2=float(input("veuillez entrer un autre nombre :"))
+nbr3=float(input("veuillez entrer un troisième  nombre :"))
+nbr4=float(input("veuillez entrer un quatrième nombre :"))
+nbr5=float(input("veuillez entrer un dernier nombre :"))
+nombre=[nbr1,nbr2,nbr3,nbr4,nbr5]
+max_valeure = max(nombre)
+min_valeure = min(nombre)
+print('le plus grand est:', max_valeure)
+print('le plus petit est:', min_valeure)

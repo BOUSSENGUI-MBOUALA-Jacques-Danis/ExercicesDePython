@@ -1,0 +1,1 @@
+print("utiliser la combinaison suivante \n\n pour passer à la ligne")
